@@ -1,0 +1,25 @@
+name: Discord Notification on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  discord_notification:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_USERNAME: GitHub Bot
+          DISCORD_AVATAR: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+        uses: Ilshidur/action-discord@master
+        with:
+          args: |
+            🎉 PRがマージされました！
+            
+            **タイトル**: ${{ github.event.pull_request.title }}
+            **作成者**: ${{ github.event.pull_request.user.login }}
+            **マージ者**: ${{ github.actor }}
+            **PR URL**: ${{ github.event.pull_request.html_url }}
