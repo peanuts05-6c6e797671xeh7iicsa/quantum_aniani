@@ -100,7 +100,6 @@ git push origin planning-名前-日付
      - 特に見てほしいポイント
 3. レビュアーを設定
 4. 「Create pull request」をクリック
-
 ## アイディアを考えるときのヒント
 
 ### 1. ユーザー視点で考える
