@@ -209,7 +209,6 @@ Week 2:
   - [ ] プロフィール編集
 
 ### インストール手順
-```
 npm install
 npm start
 ```
