@@ -5,6 +5,15 @@
 - **企画段階～実装段階まで** 一貫して GitHub でドキュメント・コードを管理
 - チーム全員が **VSCode** or **Cursor** と **GitHub** を使って作業
 - 将来的なDocker利用を見据え、Windows環境ではWSL2を使用
+- **アジャイル開発手法**を採用し、以下の特徴を活かした開発を実施
+  - イテレーティブな改善による段階的な品質向上
+  - 頻繁なフィードバックとステークホルダーとの密な連携
+  - 2週間程度のスプリントサイクルでの開発
+  - Definition of Done (DoD)による品質管理
+
+詳細な開発手法については以下のドキュメントを参照：
+- [開発手法の比較](03_development_methodology/development_approach_comparison.md)
+- [QUBOOK開発手法の提案](03_development_methodology/development_approach_proposal.md)
 
 ## 2. 準備（インストール・アカウント作成）
 
