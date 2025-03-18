@@ -84,6 +84,9 @@ Wonderblyは他テーマの絵本も販売しているが、我々は生誕の�
   - 特別なエピソード
 
 #### 2.1.2 コンテンツ生成 (流れ) ★は取り組むべきタスク (別途タスクは管理する)
+
+![コンテンツ生成フロー](images/content_generation_flow.png)
+
 - 各セグメントの「舞台・設定」の候補
   - キャラ　←  ★ 一覧&そのキャラのイメージを我々人間がまとめる
     - 日本的要素のあるキャラ (一覧のLINK)
@@ -203,4 +206,4 @@ Wonderblyは他テーマの絵本も販売しているが、我々は生誕の�
 
 ## LINK
 - https://www.wonderbly.com/jp/personalized-books/occasions/new-baby?utm_source=google&utm_medium=cpc&utm_campaign=JPN-PMAX_OCC_MothersDay&campaignid=21132270178&gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIoSKMw8_ycfLXQM4uukY6a5OFX0J-J2G6x6hugIjViOIvdeQ783-dMaAiUoEALw_wcB
-- 
+-
