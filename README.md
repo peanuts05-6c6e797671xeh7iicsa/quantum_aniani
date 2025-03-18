@@ -1,19 +1,10 @@
-# 量子アニーリングプロジェクト 初期セットアップの決定事項
+# 量子アニーリングプロジェクト
 
 ## 1. 全体概要
 - 量子アニーリングのアプリケーション開発を目指すプロジェクト
 - **企画段階～実装段階まで** 一貫して GitHub でドキュメント・コードを管理
 - チーム全員が **VSCode** or **Cursor** と **GitHub** を使って作業
 - 将来的なDocker利用を見据え、Windows環境ではWSL2を使用
-- **アジャイル開発手法**を採用し、以下の特徴を活かした開発を実施
-  - イテレーティブな改善による段階的な品質向上
-  - 頻繁なフィードバックとステークホルダーとの密な連携
-  - 2週間程度のスプリントサイクルでの開発
-  - Definition of Done (DoD)による品質管理
-
-詳細な開発手法については以下のドキュメントを参照：
-- [開発手法の比較](03_development_methodology/development_approach_comparison.md)
-- [QUBOOK開発手法の提案](03_development_methodology/development_approach_proposal.md)
 
 ## 2. 準備（インストール・アカウント作成）
 
@@ -137,9 +128,6 @@
    # GitHubにプッシュ
    git push origin test-名前-setup
    ```
-
-これで基本的な開発環境のセットアップは完了です。
-実際の開発手順については、`01_planning/README.md`を参照してください。
 
 ### 補足：WSLでの開発について
 - WSLを使用することで、WindowsでもLinux環境での開発が可能
